@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+body{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,00.5)),url(imager/pexels-pat-whelen-5579787.jpg);
+      color: #fff;
+      background-size: cover;
+      background-position: center;
+}
+h4{
+    color:lightblue;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 8px;
+    
+
+}
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.box h2{
+    font-size: 20px;
+   
+}
+.box small {
+    font-size: 10px;
+   
+}
+@media (min-width:576px){
+    .timer{
+        font-size: 60px;
+    }
+    .box h2{
+        font-size:25px ;
+    }
+    .box small {
+       font-size: 15px;
+    }
+    h4{
+        font-size: 20px;
+    }
+}
+@media(min-width:768px){
+    .timer{
+        font-size: 100px;
+    }
+    .box h2{
+        font-size:30px ;
+    }
+    .box small {
+        font-size: 15px;
+     }
+     h4{
+        font-size: 25px;
+    }
+}
